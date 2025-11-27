@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Playfair Display', serif;
+}
+:root{
+    --text-color: hsl(0, 0%, 0%);
+    --white: #fafafa;
+    --main-color: #f3f3f3;
+    --bg: #145771;
+    --sky: #c8d9e6;
+}
+header{
+    position: fixed;
+    top: 0%;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    background: white;
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    padding: 4px 8rem;
+    justify-content: space-between;
+    transition: all .50s ease;
+}
+header.sticky{
+    padding: 4px 17%;
+    background: transparent;
+    backdrop-filter: blur(35px);
+}
+.logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    padding-top: 0.5rem;
+    text-decoration: none;
+}
+ul.navbar {
+    list-style: none;      
+    margin: 0;          
+    padding: 0;            
+    display: flex;         
+    gap: 3rem;            
+    align-items: center;
+}
+ul.navbar li {
+    margin: 0;
+}
+ul.navbar a {
+    font-family: 'Playfair Display', serif;
+    display: block;
+    text-decoration: none;
+    color: #001e31;
+    font-size: 1rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 15px 22px;
+    transform: all .50s ease;
+    text-decoration: none;
+}
+.home {
+    padding : 0;
+    display: flex;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 1.5;
+        align-items: center;
+}
+.home h1{
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.home h3{
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+.home p{
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.gen {
+    flex: 1 1 50%;
+    max-width: 100%;
+    background-size: cover;     
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 0;
+}
+.gen img {
+    width: 1300px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+.home-text {
+    flex: 1 1 50%;
+    padding: 3rem 3rem;
+    background-color: white;
+    max-width: 100%;
+}
+.answer{
+    background-color: black;
+    padding: 5rem 5rem;
+}
+.text {
+    color: white;
+}
+.textn {
+    padding: 3rem 3rem;
+    color: white;
+}
+.why {
+    font-size: 20px;
+    color: white;
+    padding-left: 5rem;
+}
+.texty {
+    padding-top: 3rem;
+    color: white;
+}
+.prob {
+    text-align: justify;
+}
